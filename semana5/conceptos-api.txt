@@ -1,0 +1,5 @@
+La ruta POST /reporte recibe información enviada por el usuario mediante una solicitud POST.
+
+Utiliza req.body.mensaje para obtener el mensaje enviado y devuelve una respuesta en formato JSON indicando que el reporte fue recibido correctamente.
+
+Esta ruta podría servir en una una aplicación comunitaria para registrar reportes ciudadanos, alertas de seguridad, daños en infraestructura, problemas ambientales o cualquier información que la comunidad necesite compartir de manera organizada.
