@@ -1,0 +1,19 @@
+Modelo de datos
+
+Entidad: Causa
+
+id: Identificador único.
+titulo: Título de la causa.
+descripcion: Descripción de la causa.
+fecha: Fecha de creación.
+
+Esta entidad almacena la información principal de cada causa registrada.
+
+Entidad: Apoyo
+
+id: Identificador único.
+causa_id: Identificador de la causa.
+nombre: Nombre de la persona que apoya la causa.
+fecha: Fecha del apoyo.
+
+Esta entidad registra los apoyos recibidos y los relaciona con la causa correspondiente.
